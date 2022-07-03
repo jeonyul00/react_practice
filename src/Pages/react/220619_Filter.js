@@ -14,15 +14,9 @@ function Filter() {
     return v.age > 20;
   });
 
-  // 아니 시발 키 넣어줬는데 왜 키 경고 뜨냐 ㅅㅂ
-  // 왜 안먹히지..
+  // 아니 시발 키 넣어줬는데 왜 키 경고 뜨냐
   return (
     <>
-      {/* <div
-        key={values.map((v) => {
-          return v.index;
-        })}
-      > */}
       <div>
         {values.map((v) => {
           return (

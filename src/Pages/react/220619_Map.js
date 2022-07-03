@@ -12,7 +12,6 @@ function Map() {
   ];
 
   // map() : prop에는 callbackFuntion, index (index가 필수는 아님 : 실무가니까 대부분 요소에 프라이머리 값 들어있더라)
-  // 내가 이해 안되는건 저 sibal 왜 변수가 되는건데 저 자리에 들어가는게 뭔데...
   return (
     <>
       <div>

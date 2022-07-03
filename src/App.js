@@ -1,13 +1,12 @@
-import Filter from "./Pages/220619_Filter";
-import Map from "./Pages/220619_Map";
+import ConstAndLet from "./Pages/javascript/220702_ConstAndLet";
+import DataType from "./Pages/javascript/220702_DataType";
+import UseOnlyJavascript from "./Pages/javascript/220702_UseOnlyJavascript";
 
 function App() {
   return (
     <>
-      {/* 아예 개념부터 다시하자 , 220701 */}
-      <Map />
-      <p>-------------------------------------</p>
-      <Filter />
+      {/* <DataType /> */}
+      <ConstAndLet />
     </>
   );
 }
