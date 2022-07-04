@@ -5,7 +5,7 @@ const number = 5;
 const string = "2";
 
 // null : 비어있음
-// undefined : 알 수 없음 : 변수는 있는데(메모리는 있는데) 그 안에 값이 없을때
+// undefined : 알 수 없음 : 변수는 있는데(메모리는 있는데) 그 안에 값이 없을때 : 값이 없음
 
 const exFunction = () => {
   return (
