@@ -1,0 +1,14 @@
+/* body {
+  background-color: pink;
+} */
+
+h1 {
+  color: black;
+  transition: color 0.25s ease-in-out;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}

@@ -5,7 +5,11 @@ import DataType from "./Pages/javascript/220702_DataType";
 import Function from "./Pages/javascript/220702_Function";
 import Object from "./Pages/javascript/220702_Object";
 import UseOnlyJavascript from "./Pages/javascript/220702_UseOnlyJavascript";
+import CSS from "./Pages/javascript/220703_CSS";
+import CSSInJavascript from "./Pages/javascript/220703_CSSInJavascript";
 import DocumentObject from "./Pages/javascript/220703_DocumentObject";
+import Window from "./Pages/javascript/220703_Window";
+import LoginInput from "./Pages/javascript/220708_LoginInput";
 
 function App() {
   return (
@@ -16,7 +20,11 @@ function App() {
       {/* <Object /> */}
       {/* <Function /> */}
       {/* <Conditionals /> */}
-      <DocumentObject />
+      {/* <DocumentObject /> */}
+      {/* <Window /> */}
+      {/* <CSSInJavascript /> */}
+      {/* <CSS /> */}
+      <LoginInput />
     </>
   );
 }
