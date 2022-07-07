@@ -12,3 +12,6 @@ h1 {
 .blue {
   color: blue;
 }
+.hidden {
+  display: none;
+}

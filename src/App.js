@@ -10,6 +10,7 @@ import CSSInJavascript from "./Pages/javascript/220703_CSSInJavascript";
 import DocumentObject from "./Pages/javascript/220703_DocumentObject";
 import Window from "./Pages/javascript/220703_Window";
 import LoginInput from "./Pages/javascript/220708_LoginInput";
+import Time from "./Pages/javascript/220708_Time";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <Window /> */}
       {/* <CSSInJavascript /> */}
       {/* <CSS /> */}
-      <LoginInput />
+      <Time />
+      {/* <LoginInput /> */}
     </>
   );
 }
