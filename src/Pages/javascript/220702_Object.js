@@ -67,6 +67,40 @@ const car = {
   },
 };
 
+// 비구조화 할당 상세
+const sum = { a: 1 };
+const { a, b = 2 } = sum; // a :1 , b :2
+
+const animal = { name: "멍멍이", type: "개" };
+const { name: nickname } = animal; // - - - - - - - - 값을 꺼내서 할당 : 이래서 비구조화할당 또는 구조분해 할당이라고 부른다
+console.log(nickname); // 멍멍이
+
+const arr = [1];
+const [one, two = 2] = arr;
+
+const deepObject = {
+  1: {
+    2: {
+      3: {
+        name: "jeonyul",
+        arr: [1, 2, 3, 4, 5],
+      },
+    },
+  },
+  value: 1,
+};
+
+const { v, vv } = deepObject[1][2][3];
+const { vvv } = deepObject.value;
+
+const extracted = {
+  // 만약 특정 객체를 만들때 이미 있는 이름이라면 : xx을 생략해도 됨 지금의 경우는 아니니까 할당한다
+  name: v,
+  arr: vv,
+  value: vvv,
+};
+console.log(extracted);
+
 function Object() {
   return (
     <>
