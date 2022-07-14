@@ -11,6 +11,13 @@ import DocumentObject from "./Pages/javascript/220703_DocumentObject";
 import Window from "./Pages/javascript/220703_Window";
 import LoginInput from "./Pages/javascript/220708_LoginInput";
 import Time from "./Pages/javascript/220708_Time";
+import ArrayRandering from "./Pages/react/220714_ArrayRandering";
+import Input from "./Pages/react/220714_Input";
+import JSX from "./Pages/react/220714_JSX";
+import Props from "./Pages/react/220714_Props";
+import UseEffect from "./Pages/react/220714_UseEffect";
+import UseMemo from "./Pages/react/220714_UseMemo";
+import UseRef from "./Pages/react/220714_UseRef";
 
 function App() {
   return (
@@ -25,8 +32,16 @@ function App() {
       {/* <Window /> */}
       {/* <CSSInJavascript /> */}
       {/* <CSS /> */}
-      <Time />
+      {/* <Time /> */}
       {/* <LoginInput /> */}
+      {/* <JSX /> */}
+      {/* <Props name="react" color="red" />
+      <Props color="red" /> */}
+      {/* <Input /> */}
+      {/* <UseRef /> */}
+      {/* <ArrayRandering /> */}
+      {/* <UseEffect /> */}
+      {/* <UseMemo /> */}
     </>
   );
 }
