@@ -14,34 +14,18 @@ import Time from "./Pages/javascript/220708_Time";
 import ArrayRandering from "./Pages/react/220714_ArrayRandering";
 import Input from "./Pages/react/220714_Input";
 import JSX from "./Pages/react/220714_JSX";
-import Props from "./Pages/react/220714_Props";
+import Props, { Wrapper } from "./Pages/react/220714_Props";
+import Props2 from "./Pages/react/220714_Props";
 import UseEffect from "./Pages/react/220714_UseEffect";
 import UseMemo from "./Pages/react/220714_UseMemo";
 import UseRef from "./Pages/react/220714_UseRef";
+import UseState from "./Pages/react/220714_UseState";
+import Context from "./Pages/react/220718_Context";
 
 function App() {
   return (
     <>
-      {/* <DataType /> */}
-      {/* <ConstAndLet /> */}
-      {/* <Array /> */}
-      {/* <Object /> */}
-      {/* <Function /> */}
-      {/* <Conditionals /> */}
-      {/* <DocumentObject /> */}
-      {/* <Window /> */}
-      {/* <CSSInJavascript /> */}
-      {/* <CSS /> */}
-      {/* <Time /> */}
-      {/* <LoginInput /> */}
-      {/* <JSX /> */}
-      {/* <Props name="react" color="red" />
-      <Props color="red" /> */}
-      {/* <Input /> */}
-      {/* <UseRef /> */}
-      {/* <ArrayRandering /> */}
-      {/* <UseEffect /> */}
-      {/* <UseMemo /> */}
+      <Input />
     </>
   );
 }

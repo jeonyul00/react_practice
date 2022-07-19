@@ -1,0 +1,15 @@
+firebase : 백엔드 코드가 다 거기서 거기같다 -> 백엔드 만들어 주는 서비스를 만들자 : 웹서버를 대신 만들어주는 서비스 firebase 탄생
+    근데 이러면 보안이 개판 아닌가... -> firebase에서 룰을 정할 수 있다
+
+제공하는 서비스 : 회원 인증 기능, 전화 인증, 데이터 베이스, 이미지 저장 영상저장 (스토리지)
+
+준비 
+    npm install firebase    
+    npm install -g firebase-tools
+끝
+
+firebase 홈페이지에서 프로젝트 생성 -> 필요한 기능 활성화 하기 ( 빌드/어센틱케이션, 파이어베이스 데이터베이스, 호스팅, 스토리지)
+
+1, 터미널에서 firebase login -> firebase init
+
+
