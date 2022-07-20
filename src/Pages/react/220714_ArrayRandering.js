@@ -1,30 +1,35 @@
 import React from "react";
 
 // 배열을 랜더링 할 때
-const data = [
+const users = [
   {
     id: 1,
-    name: "jeon",
+    username: "jeonyul",
+    email: "jeonyul00@gmail.com",
   },
   {
     id: 2,
-    name: "choi",
+    username: "kimbongda",
+    email: "bongdas@naver.com",
   },
   {
     id: 3,
-    name: "kim",
+    username: "kimyunji",
+    email: "WeMB@daum.com",
   },
   {
     id: 4,
-    name: "lee",
+    username: "kimeunhee",
+    email: "heeheehee@gamil.com",
   },
 ];
 function ArrayRandering() {
   return (
     <b>
-      {data.map((v) => (
-        <p>
-          {v.id},{v.name}
+      {users.map((v) => (
+        <p key={v.id}>
+          {v.id},{v.username}
+          <p style={{ paddingLeft: 20 }}>{v.email}</p>
         </p>
       ))}
     </b>

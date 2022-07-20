@@ -25,7 +25,7 @@ import Context from "./Pages/react/220718_Context";
 function App() {
   return (
     <>
-      <Input />
+      <ArrayRandering />
     </>
   );
 }
