@@ -1,25 +1,7 @@
 import React, { useRef, useState } from "react";
 
-const data = [
-  {
-    id: 1,
-    name: "jeon",
-  },
-  {
-    id: 2,
-    name: "choi",
-  },
-  {
-    id: 3,
-    name: "kim",
-  },
-  {
-    id: 4,
-    name: "lee",
-  },
-];
-
-// useRef : dom에 직접 접근 할 수 있다
+// useRef : 1, dom에 직접 접근 할 수 있다
+// useRef : 2, 변수를 만들어 관리할 수 있다 : state와 차이점으로는 값이 변해도 재랜더링이 안되며 다른 조건으로 재 랜더링 되더라도 값이 초기화 되지 않는다
 function UseRef() {
   const [inputs, setInputs] = useState({
     name: "",

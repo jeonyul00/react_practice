@@ -2,7 +2,7 @@ import React, { useReducer } from "react";
 
 // 컴포넌트의 상태를 업데이트 할 수 있다 : useState도 마찬가지 아닌가..
 // useState와 차이점 : useState는 설정하고 싶은 다음 값을 직접 지정해줘야한다
-// useReducer의 경우는 액션이라는 객체로 상태를 업데이트한다 : 액션 객체란 업데이트할 때 참조하는 객체
+// useReducer의 경우는 액션이라는 객체로 상태를 업데이트한다 : 액션 객체란 업데이트할 때 참조하는 객체 : type에 따라 어떤 업데이트를 할지 분기처리를 한다
 // 컴포넌트의 상태 업데이트 로직을 컴포넌트 밖으로 분리 가능
 // reducer : 상태를 업데이트 하는 함수
 const reducer = (state, action) => {
