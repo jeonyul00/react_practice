@@ -54,6 +54,8 @@ const reducer2 = (state, action) => {
 function UseReducer() {
   // dispatch로 다른곳에서 정의한 reducer을 호출한다
   // useReducer의 0번 인덱스는 다른곳에 정의한 reducer의 이름, 1번 인덱스는 기본값
+  // number : 현재 상태
+  // dispatch : 액션 발생
   const [number, dispatch] = useReducer(reducer, 0);
 
   const [state, dispatch2] = useReducer(reducer2, init);
